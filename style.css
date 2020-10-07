@@ -1,0 +1,121 @@
+body{
+background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+width: 900px;
+margin:auto;
+}
+
+/* NOTE: inizio header per foto e testo */
+#intestazione{
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 30px;
+  border-bottom: 2px solid lightgray
+}
+
+.testog{
+  color: white;
+  display: inline-block;
+
+}
+/* NOTE: inizio header per foto e testo */
+
+/* NOTE: inizio prima fase fino alla frase "30 non letti" */
+.ricerca{
+  margin-top: 10px;
+}
+.bottone{
+  display: inline-block;
+}
+
+
+.testo{
+  font-style: normal;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid lightgray;
+
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+  background: #ffa500;
+}
+/* NOTE: fine prima fase fino a frase "30 non letti"  */
+
+/* NOTE: inizio parte principale barre email */
+#slot{
+  margin-top: 10px;
+  font-style: normal;
+
+}
+
+.primo{
+  border-style: solid;
+  border-width: 2px;
+  border-bottom: none;
+  border-color: black;
+  background-color: lightgray;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+.primospan{
+  color: #b4b4b4
+}
+
+.speciale{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+.terzo{
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-color: black;
+  background-color: lightgray;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+
+/* NOTE: fine parte principale barre email */
+
+/* NOTE: border di chiusura fatto male */
+#chiusura{
+  border-bottom: 2px solid lightgray;
+  margin-top: 10px
+}
+/* NOTE: fine border chiusura fatto male */
+
+/* NOTE: inizio footer finale centrando scritte  */
+#finale{
+  text-align: center;
+  margin: 5px
+}
+
+.gmail{
+  font-style: normal;
+  font-size: 30px;
+  color:white
+}
+
+.power{
+  font-style: italic;
+  font-size: 15px;
+  color:white
+}
+
+/* NOTE: fine footer finale */
